@@ -105,9 +105,12 @@ header{
    }
    .ankole-logo{
     position: absolute;
-    
+    text-align: center;
     right:45%;
-    
+    h1{
+        color: white;
+        font-size: 3.5vw;
+    }
     img{
         width: 10vw;
     }
@@ -147,6 +150,13 @@ header{
     .event:nth-child(3){
         background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
 
+    }
+    .reviews-page{
+        background-color: black;
+        /* margin: 0; */
+        /* width: 100vw; */
+        height:99vh;
+        margin-top: 0px;
     }
     .navigation-bar{
         position:absolute;

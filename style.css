@@ -24,7 +24,6 @@
         color: white;
         border: solid 0.5px;
         border-radius: 50%;
-        /* color: rgb(248, 242, 242); */
     }
 }
 body{
@@ -104,25 +103,51 @@ header{
     margin:0;
     width: 100vw;
    }
+   .ankole-logo{
+    position: absolute;
+    
+    right:45%;
+    
+    img{
+        width: 10vw;
+    }
+}
    .event{
     width:200%;
     height:100vh;
-    /* background-blend-mode: */
+    text-align: center;
     background-size: 70vh 65vw;
     background-repeat: no-repeat;
+
+    span{
+        
+        margin-top: 5000vh;
+        color: rgb(160, 157, 157);
+    }
+    h1{
+        margin-top: 50%;
+        color: white;
+        font-size: 450%;
+    }
+    p{
+        color: goldenrod;
+    }
+    #contact-info{
+        color: white;
+    }
    }
    .event:nth-child(1){
     background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
     
-}
-.event:nth-child(2){
-    background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
-    
-}
-.event:nth-child(3){
-    background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
+    }
+    .event:nth-child(2){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
+        
+    }
+    .event:nth-child(3){
+        background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
 
-}
+    }
     .navigation-bar{
         position:absolute;
         top: 89%;

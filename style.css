@@ -36,7 +36,23 @@ background-position: 100%;
 }
 .reviews-page{
     background-color: black;
-    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    p{
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 22%;
+        line-height: 1.7em;
+        .fa-flip-both{
+            padding: 1.5%;
+        }
+        .fa-quote-right{
+            color: #ef562f;
+            padding-left: 75%;
+            font-size: 2vw;
+        }
+    }
 }
 
 header{
@@ -114,6 +130,7 @@ header{
     img{
         width: 10vw;
     }
+    
 }
    .event{
     width:200%;
@@ -151,17 +168,10 @@ header{
         background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
 
     }
-    .reviews-page{
-        background-color: black;
-        /* margin: 0; */
-        /* width: 100vw; */
-        height:99vh;
-        margin-top: 0px;
-    }
     .navigation-bar{
         position:absolute;
         top: 89%;
-        left: 30%;
+        left: 15vw;
         font-size: large;
         nav{
             justify-content: center;
@@ -191,11 +201,10 @@ header{
             justify-items: baseline;
             color:white;
             border: none;
-            margin: 0 12px;
+            margin: 0 0.5vw;
         }
         nav ul{
             list-style: none;
-           
             display: flex;
             justify-content: center;
            
@@ -203,7 +212,7 @@ header{
         nav ul li a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 0.5vw;
 
           
         }
@@ -213,7 +222,7 @@ header{
             padding: 1.5%;
             margin-top:-1.5%;
             margin-bottom: 9%;
-            margin-left: 12px;
+            margin-left: 2vw;
         }
         #reservations a:hover {
             color: black;

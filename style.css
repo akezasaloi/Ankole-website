@@ -1,16 +1,30 @@
-header{
-    display: flex;
-    gap:1%;
-    justify-content: flex-end;
+.social-media-brands {
+    position: absolute;
+   padding-left: 95%;
+   top: 5%;
+   display: flex;
+   
     i{
-        border-radius: 25px;
-        /* padding: 2%; */
+        padding: 15%;
+        color: rgb(248, 242, 242);
+        margin: 0 4px;
+       
+    }
+  
+}
+    .whatsapp{
+        position: absolute;
+   padding-left: 95%;
+   top: 95%;
+    i{
+        padding: 60%;
+        color: rgb(248, 242, 242);
     }
 }
 body{
-  
-width:100%;
-   
+    margin: 0;
+    width:100%;
+    overflow: hidden;
 }
 .menu-page{
 background-position: 100%;
@@ -23,64 +37,150 @@ background-position: 100%;
 header{
     display: flex;
     gap:1%;
+    position: absolute;
 }
 .home-page{
-    img{
-        width:50vw;
+     position: relative;
+}
+.images{
+    width:99.99vw;
+    height: 99.99vh;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    animation: anime 20s  infinite forwards; 
+    opacity: 0;
+    padding-top: 9%;
+    h1{
+        color: grey;
+        font-size: 10vh;
+        opacity: 70%;
     }
+    img{
+        width: 10vw;
+    }
+}
+
+.images:nth-child(2){
+    background-image: url(images/welcome-to-homepage.jpg);
+    animation-delay: 0s;
+}
+.images:nth-child(3){
+    background-image: url(./images/discover-image.jpg);
+    animation-delay: 5s;
+}
+.images:nth-child(4){
+    background-image: url(./images/experience-image.jpg);
+    animation-delay: 10s;
+}
+.images:nth-child(5){
+    background-image: url(./images/savour-image.jpg);
+    animation-delay: 15s;
+}
+.images:nth-child(6){
+    background-image: url(./images/taste-image.jpg);
+    animation-delay: 20s;
+}
+@keyframes anime {
+    0%{opacity: 0;}
+    10%{opacity: 1;}
+    30%{opacity: 1;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
 }
     i{
         border: solid 1px;
         padding: 0.5%;
-        color: rgb(18, 18, 18);
+        border-radius: 25px;
+        color: rgb(66, 64, 64);
     }
-    footer{
-        
+    .navigation-bar{
+        position:absolute;
+        top: 90%;
+        left: 35%;
+        font-size: large;
         nav{
             justify-content: center;
             background-color: rgb(9,10,10);
-            width:30vw;
-            height:4vh;
-            padding: 0.5%;
-            border-radius: 25px;
+            width:42vw;
+            height:5.5vh;
+            padding: 3%;
+            border-radius: 45px;
+            align-items: normal;
             
         }
         nav svg{
             color: white;
+            width: 1.5vw;
+            height: 1.9vh;
         }
      
         nav i{
             justify-items: baseline;
-            /* padding-left:0.2%; */
             color:white;
             border: none;
+            margin: 0 12px;
         }
         nav ul{
             list-style: none;
-            /* padding: 0; */
+           
             display: flex;
             justify-content: center;
-            /* margin-left: 50px; */
-            /* margin-top: 40px; */
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 5px;
-        }nav ul li {
-            display: inline;
-            margin: 0 5px;
+           
         }
         nav ul li a {
             color: white;
-            
             text-decoration: none;
+            margin: 0 15px;
 
           
         }
+        #reservations{
+            background-color: rgb(160, 157, 157);
+            border-radius: 25px;
+            padding: 1.5%;
+            margin-top:-1.5%;
+            margin-bottom: 9%;
+            margin-left: 12px;
+        }
+        #reservations a:hover {
+            /* background-color: white; */
+            color: black;
+            /* border-radius: 35px;
+            padding:7%;
+            padding-right: 2%;
+            width: 20vw;
+            margin-bottom: 9%;
+            margin-left: 12px; */
+            text-align: center;
+            
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-top: 0.3%;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 125%;
+            padding: 3vh; 
+        }
+        .hours-icon:hover .opening-hours{
+            display: block;
+        }
+
     
-    .fa-whatsapp{
-        border-radius: 50%;
-    }
 }
 
 

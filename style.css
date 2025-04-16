@@ -205,6 +205,40 @@ header{
             border: solid 0.1vw white;
         }
     }
+    .reservations-image{
+         position: absolute;
+        img{
+            margin-left: 170%;
+            width: 12vw;
+            /* fill-opacity:inherit; */
+            
+        }
+
+    }
+    .reservations-page{
+        background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/reservations-image.jpg);
+        position: relative;
+        width: 52vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+    .reservations-content{
+        position:absolute;
+        top: 190%;
+        left: 150%;
+        text-align: center;
+        line-height: 0.8em;
+        p{
+            color: white;
+            font-size: 1.5vw;
+        }
+        h1{
+            color: #ef562f;
+            font-size: 3vw;
+        }
+
+    }
     .navigation-bar{
         position:absolute;
         top:85%;

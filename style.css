@@ -168,6 +168,43 @@ header{
         background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
 
     }
+    .contacts-page{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/contact3.jpg);
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        margin: 0;
+        width:100vw;
+        gap:2%;
+        height: 100vh;
+        display: flex;
+        p{
+            color: white;
+            line-height: 2em;
+        }
+        h1{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        .kitisuru-contact-information{
+            margin-top:15%;
+            margin-left: 25%;
+            width:20%;
+            height: 30%;
+            padding: 2%;
+            border: solid 0.1vw white;
+
+        }
+        .kilimani-contact-information{
+            margin-top: 15%;
+            width: 20%;
+            height:40%;
+            padding: 2%;
+            border: solid 0.1vw white;
+        }
+    }
     .navigation-bar{
         position:absolute;
         top:85%;

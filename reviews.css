@@ -1,0 +1,23 @@
+@import url(https://db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter+Normal);
+
+.reviews-page{
+    background-color: black;
+    width: 100vw;
+    height:100vh;
+    p{
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 22%;
+        line-height: 1.7em;
+        .fa-flip-both{
+            padding: 1.5%;
+        }
+        .fa-quote-right{
+            color: #ef562f;
+            padding-left: 75%;
+            font-size: 2vw;
+        }
+    }
+}
+   

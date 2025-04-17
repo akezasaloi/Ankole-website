@@ -1,0 +1,45 @@
+@import url(https://db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter+Normal);
+
+.events-page{
+    position: relative;
+    display: flex;
+    margin:0;
+    width: 100vw;
+   }
+
+   .event{
+    width:200%;
+    height:100vh;
+    text-align: center;
+    background-size: 70vh 65vw;
+    background-repeat: no-repeat;
+
+    span{
+        
+        margin-top: 5000vh;
+        color: rgb(160, 157, 157);
+    }
+    h1{
+        margin-top: 50%;
+        color: white;
+        font-size: 450%;
+    }
+    p{
+        color: goldenrod;
+    }
+    #contact-info{
+        color: white;
+    }
+   }
+   .event:nth-child(1){
+    background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
+    
+    }
+    .event:nth-child(2){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
+        
+    }
+    .event:nth-child(3){
+        background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
+
+    }

@@ -70,9 +70,13 @@ nav a:focus{
     color: #efb26c;
 }
 }
-.breakfast-menu-header{
+.breakfast-menu{
     margin-top: 8%;
     margin-left: 6%;
+}
+.breakfast-options{
+    display: flex;
+    gap:20%;
 }
 h2{
     color: #b34215;
@@ -94,6 +98,30 @@ p{
     font-weight: 400;
     line-height: 10px;
 
+}
+.heavy-breakfast{
+    img{
+        width:6vw;
+    }
+}
+.ranch-breakfast{
+    display: flex;
+    gap: 2.5%;
+
+    
+}
+.spanish-omelette{
+    display: flex;
+    gap: 2.5%;
+}
+.heavy-breakfast-options{
+    p{
+        font: optional;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #c5c5c5;
+    }
 }
 .menu-navigation-bar{
     position:absolute;

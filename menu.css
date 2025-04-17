@@ -1,14 +1,18 @@
 @import url(https://db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter+Normal);
 .menu-image{
     position: absolute;
+    height: 100vh;
    img{
        margin-left: 170%;
        margin-top: 50%;
        width: 12vw;
+      
+       
    }
 }
 .ankole-menu{
 display: flex;
+
 }
 .menu-header{
     position:absolute;
@@ -48,6 +52,8 @@ display: flex;
 background-color: black;
 color: white;
 width:50%;
+height: 100vh;
+overflow: auto;
 nav{
     display: flex;
     gap: 6%;
@@ -73,32 +79,32 @@ nav a:focus{
 .breakfast-menu{
     margin-top: 8%;
     margin-left: 6%;
+    margin-right: 6%;
+    h1{
+        font-family: "American Typewriter Normal";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 34px;
+        line-height: 26px;
+    }
+    p{
+        color: #c5c5c5;
+        font-family: "American Typewriter Normal";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
 }
 .breakfast-options{
     display: flex;
-    gap:20%;
+    justify-content: space-between;
 }
 h2{
     color: #b34215;
 }
-h1
-{
-    font-family: "American Typewriter Normal";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
-    color: #fff;
-}
-p{
-    color: #c5c5c5;
-    font-size: 16px;
-    font-family: "American Typewriter Normal";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 10px;
 
-}
 .heavy-breakfast{
     img{
         width:6vw;
@@ -107,20 +113,36 @@ p{
 .ranch-breakfast{
     display: flex;
     gap: 2.5%;
-
-    
+    h3{
+        font-family: "American Typewriter Normal";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 24.9%;
+    }
 }
 .spanish-omelette{
     display: flex;
     gap: 2.5%;
+    h3{
+        font-family: "American Typewriter Normal";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 52%;
+    }
 }
 .heavy-breakfast-options{
     p{
-        font: optional;
-        font-weight: 400;
+        font-family: 'Gill Sans';
         font-size: 16px;
-        line-height: 26px;
-        color: #c5c5c5;
+        margin: 0;
     }
 }
 .menu-navigation-bar{
@@ -199,10 +221,6 @@ p{
             font-weight: 400;
             line-height: 0.1em; 
         }
-    }
-    .hours-icon:hover .opening-hours{
-        display: block;
-        
     }
 }
 #reservations{

@@ -1,4 +1,4 @@
-@import url(https://db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter+Normal);
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 .menu-image{
     position: absolute;
     height: 100vh;
@@ -16,14 +16,15 @@ display: flex;
 }
 .menu-header{
     position:absolute;
-    top: 150%;
-    left: 145%;
+    top: 45%;
+    left: 165%;
     text-align: center;
     line-height: 0.8em;
+
     p{
         color: white;
         font-size: 32px;
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-style: normal;
         font-weight: 400;
         line-height: 0.1em;
@@ -32,7 +33,7 @@ display: flex;
     h1{
         color:#a34119;
         font-size: 64px;
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-style: normal;
         font-weight: 500;
         line-height: 0.1em;                                                
@@ -48,7 +49,7 @@ display: flex;
    background-position: 100%;
     
 }
-.menu{
+.menu-background{
 background-color: black;
 color: white;
 width:50%;
@@ -62,7 +63,7 @@ nav{
 nav a{
     text-decoration: none;
     color: #c5c5c5;
-    font-family: "American Typewriter Normal";
+    font-family: "American Typewriter";
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -72,16 +73,17 @@ nav a{
 nav a:hover{
     color: #efb26c;
 }
-nav a:focus{
+nav a:focus-visible{
     color: #efb26c;
 }
 }
-.breakfast-menu{
+.menu{
     margin-top: 8%;
     margin-left: 6%;
     margin-right: 6%;
+    margin-bottom: 11%;
     h1{
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-weight: 400;
         font-style: normal;
         font-size: 34px;
@@ -89,7 +91,7 @@ nav a:focus{
     }
     p{
         color: #c5c5c5;
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-weight: 400;
         font-style: normal;
         font-size: 16px;
@@ -107,35 +109,35 @@ h2{
 
 .heavy-breakfast{
     img{
-        width:6vw;
+        width:4vw;
     }
 }
 .ranch-breakfast{
     display: flex;
     gap: 2.5%;
     h3{
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-weight: 400;
         font-style: normal;
         font-size: 18px;
         line-height: 21px;
     }
     p{
-        margin-left: 24.9%;
+        margin-left: 27.2%;
     }
 }
 .spanish-omelette{
     display: flex;
     gap: 2.5%;
     h3{
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-weight: 400;
         font-style: normal;
         font-size: 18px;
         line-height: 21px;
     }
     p{
-        margin-left: 52%;
+        margin-left: 55%;
     }
 }
 .heavy-breakfast-options{
@@ -161,7 +163,7 @@ h2{
         align-items: normal;
     }
     nav svg{
-        color: white;
+        color: #737373;
         width: 1.5vw;
         height: 1.9vh;
     }
@@ -191,7 +193,7 @@ h2{
         text-decoration: none;
         margin: 0 0.75vw;
     }
-    nav ul li a:focus{
+    nav ul li a:focus-visible{
         border: 1px solid #191a1a;
         background-color: #191a1a;
         border-radius: 0;
@@ -200,7 +202,11 @@ h2{
     .hours-icon{
         position: relative;
         display: block;
-        margin-top: 0.25%;
+        margin-left: 2%;
+        color: #737373;
+    }
+    .fa-bars{
+        color: #737373;
     }
     .opening-hours{
         display: inline-block;
@@ -216,7 +222,7 @@ h2{
         padding: 3vh; 
         h6{
             font-size: 20px;
-            font-family: "American Typewriter Normal";
+            font-family: "American Typewriter";
             font-style: normal;
             font-weight: 400;
             line-height: 0.1em; 

@@ -1,17 +1,22 @@
-@import url(https://db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter+Normal);
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
 .social-media-brands {
     position: absolute;
-   padding-left: 95.5%;
+   padding-left: 93.5%;
    top: 5%;
    display: flex;
+   gap: 10%;
+   text-align: center;
    
     i{
-       
+        
         border-radius: 50%;
-        /* width: 60%; */
-        color: rgb(178, 170, 170);
-        margin: 0 4px;
+        border: solid 1px #737373;
+        padding: 8%;
+        background-color: none;
+        color:#737373;
+        width: 2vw;
+        height: 2vh;
        
     }
   
@@ -19,9 +24,9 @@
     .whatsapp{
         position: absolute;
    padding-left: 95%;
-   top: 93%;
+   top: 85%;
     i{
-        padding: 70%;
+        padding: 100%;
         background-color: black;
         color: white;
         border: solid 0.5px;
@@ -57,7 +62,7 @@ header{
     opacity: 0;
     padding-top: 9%;
     h1{
-        font-family: "American Typewriter Normal";
+        font-family: "American Typewriter";
         font-weight:400;
         color:#737373cf;
         font-size: 144px;
@@ -128,7 +133,7 @@ header{
             align-items: normal;
         }
         nav svg{
-            color: white;
+
             width: 1.5vw;
             height: 1.9vh;
         }
@@ -156,12 +161,12 @@ header{
         nav ul li a {
             color: white;
             text-decoration: none;
-            margin: 0 0.75vw;
+            margin: 1vw;
         }
         nav ul li a:hover{
             color: gray;
         }
-        nav ul li a:focus{
+        nav ul li a:focus-visible{
             border: 1px solid #191a1a;
             background-color: #191a1a;
             border-radius: 0;
@@ -185,7 +190,12 @@ header{
         .hours-icon{
             position: relative;
             display: block;
-            margin-top: 0.25%;
+            margin-left: 2%;
+            color: #737373;
+            
+        }
+        .fa-bars{
+            color: #737373;
         }
         .opening-hours{
             display: inline-block;
@@ -201,7 +211,7 @@ header{
             padding: 3vh; 
             h6{
                 font-size: 20px;
-                font-family: "American Typewriter Normal";
+                font-family: "American Typewriter";
                 font-style: normal;
                 font-weight: 400;
                 line-height: 0.1em; 

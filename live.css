@@ -1,610 +1,195 @@
-@import url(https://db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter+Normal);
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-.social-media-brands {
-    position: absolute;
-   padding-left: 95.5%;
-   top: 5%;
-   display: flex;
-   
-    i{
-       
-        border-radius: 50%;
-        /* width: 60%; */
-        color: rgb(178, 170, 170);
-        margin: 0 4px;
-       
-    }
-  
-}
-    .whatsapp{
-        position: absolute;
-   padding-left: 95%;
-   top: 93%;
-    i{
-        padding: 70%;
-        background-color: black;
-        color: white;
-        border: solid 0.5px;
-        border-radius: 50%;
-    }
-}
-body{
-    margin: 0;
-    width:100%;
-    overflow: hidden;
-    
-}
-.menu-page{
-background-position: 100%;
-}
-.reviews-page{
-    background-color: black;
-    width: 100vw;
-    height:100vh;
-    p{
-        color: white;
-        text-align: center;
-        margin: 0;
-        padding: 22%;
-        line-height: 1.7em;
-        .fa-flip-both{
-            padding: 1.5%;
-        }
-        .fa-quote-right{
-            color: #ef562f;
-            padding-left: 75%;
-            font-size: 2vw;
-        }
-    }
-}
-
-header{
-    display: flex;
-    gap:1%;
-    position: absolute;
-}
-.home-page{
-     position: relative;
-}
-.images{
-    width:100%;
+.live-page{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/live-page-background.jpg);
+    width:100vw;
     height: 100vh;
-    justify-content: center;
-    text-align: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
-    animation: anime 20s  infinite forwards; 
-    opacity: 0;
-    padding-top: 9%;
-    h1{
-        font-family: "American Typewriter Normal";
-        font-weight:400;
-        color:#737373cf;
-        font-size: 144px;
-        font-style: normal;
-        opacity: 70%;
-    }
-    img{
-        width: 10vw;
-    }
-}
-
-.images:nth-child(1){
-    background-image: url(images/welcome.jpg);
-    animation-delay: 0s;
-}
-.images:nth-child(2){
-    background-image: url(./images/Discover.jpg);
-    animation-delay: 5s;
-}
-.images:nth-child(3){
-    background-image: url(./images/Experience.jpg);
-    animation-delay: 10s;
-}
-.images:nth-child(4){
-    background-image: url(./images/Taste.jpg);
-    animation-delay: 15s;
-}
-.images:nth-child(5){
-    background-image: url(./images/Savour.jpg);
-    animation-delay: 20s;
-}
-
-@keyframes anime {
-    0%{opacity: 0;}
-    10%{opacity: 1;}
-    30%{opacity: 1;}
-    40%{opacity: 0;}
-    100%{opacity: 0;}
-}
-   .events-page{
-    position: relative;
+    background-repeat: repeat-x;
     display: flex;
-    margin:0;
-    width: 100vw;
-   }
-   .ankole-logo{
-    position: absolute;
-    text-align: center;
-    top:100%;
-    right:44%;
-    h1{
-        color: white;
-        font-size: 3.5vw;
-    }
-    img{
-        width: 10vw;
-    }
-    
+    justify-content: space-between;
+    overflow: auto;
 }
-   .event{
-    width:200%;
-    height:100vh;
+.live-front-and-logo{
+    position: absolute;
+    height: 100vh;
+   img{
+       margin-left: 170%;
+       margin-top: 50%;
+       width: 12vw;    
+   }
+}
+.live-header{
+    position:absolute;
+    top: 45%;
+    left: 190%;
     text-align: center;
-    background-size: 70vh 65vw;
-    background-repeat: no-repeat;
+    line-height: 0.8em;
 
-    span{
-        
-        margin-top: 5000vh;
-        color: rgb(160, 157, 157);
-    }
-    h1{
-        margin-top: 50%;
-        color: white;
-        font-size: 450%;
-    }
     p{
-        color: goldenrod;
-    }
-    #contact-info{
         color: white;
-    }
-   }
-   .event:nth-child(1){
-    background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
-    
-    }
-    .event:nth-child(2){
-        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
-        
-    }
-    .event:nth-child(3){
-        background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
-
-    }
-    .contacts-page{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/contact3.jpg);
-        background-repeat: no-repeat;
-        background-size:100vw 100vh;
-        margin: 0;
-        width:100vw;
-        gap:2%;
-        height: 100vh;
-        display: flex;
-        p{
-            color: white;
-            line-height: 2em;
-        }
-        h1{
-            color: white;
-        }
-        a{
-            text-decoration: none;
-            color:white;
-        }
-        .kitisuru-contact-information{
-            margin-top:15%;
-            margin-left: 25%;
-            width:20%;
-            height: 30%;
-            padding: 2%;
-            border: solid 0.1vw white;
-
-        }
-        .kilimani-contact-information{
-            margin-top: 15%;
-            width: 20%;
-            height:40%;
-            padding: 2%;
-            border: solid 0.1vw white;
-        }
-    }
-    .reservations-image{
-         position: absolute;
-        img{
-            margin-left: 170%;
-            margin-top: 50%;
-            width: 12vw;
-            /* fill-opacity:inherit; */
-            
-        }
-
-    }
-    .reservations-page{
-        background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/reservations-image.jpg);
-        position: relative;
-        width: 52vw;
-        height: 100vh;
-        background-repeat: no-repeat;
-        margin-top: 0;
-        
-    }
-    .reservation-form{
-        background-color: black;
-        width:50%;
-    }
-    form{
-        background-color: black;
-        margin-left: 8%;
-        margin-top: 5%;
-        border:  0px;
-        line-height: 2em;
-        border-radius: 25px;
-        width: 40.5vw;
-        height: 70vh;
-        padding-top: 6%;
-        padding-left: 2%;
-        color: white;
-        box-shadow:  0 4px 12px 0  rgba(72, 71, 71, 0.2);
-    }
-    .reservation-form input:hover{
-        border: 1px solid green;
-    }
-    label{
-        font-family: "American Typewriter Normal";
-        font-size: 12.8px;
-        font-weight: 400;
-        line-height: 25.6px;
-        color: rgba(255, 255, 255, 0.8);
-    }
-    input{
-        width: 39vw;
-        background-color: black;
-        color: white;
-        border: solid 0.01px rgb(105, 104, 104);
-        padding: 1%;
-        height: 3vh; 
-    }
-    #location{
-        width: 39.9vw;
-        background-color:#171717;
-        color: rgb(68, 66, 66);
-        border: solid 0.01px #cccccc;
-        border-radius: -25px;
-        height: 5vh;
-        color-scheme: dark;
-    }
-    #location:hover{
-        border:1px solid blue;
-    }
-    #date{
-        color-scheme:dark;
-    }
-    #time{
-        color-scheme:dark;
-    }
-    #submit{
-        width: 40vw;
-        background-color:#f2d5a5;
-        color: #0b0000;
-        border: solid 0.1px rgb(15, 15, 15);
-        border-radius: 12px;
-        padding-top: 0.5%;
-        height: 7vh;
-        font-size: 100%;
+        font-size: 32px;
+        font-family: "American Typewriter",sans-serif;
         font-style: normal;
+        font-weight: 400;
+        line-height: 0.1em;
+                                            
     }
-    #submit:hover{
-        background-color: #8a6e42;
-        color: #f2d5a5;
+    h1{
+        color:#a34119;
+        font-size: 64px;
+        font-family: "American Typewriter",sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.1em;                                                
     }
-   .ankole-reservation{
+}
+.live-events{
+    margin-top: 0;
+    margin-left: 55%;
+    height: 100vh;
+    display:flex;
+    gap: 7%;
+    flex-direction: column;
+    p{
+        color:#b34215;
+        font-size: 16px;
+        font-family: "American Typewriter",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;    
+    }
+    h2{
+        color: #fff;;
+        font-size: 24px;
+        font-family: "American Typewriter",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px; 
+    }
+    img{
+        width: 20vw;
+        border-radius: 18px;
+    }
+}
+.fadhile-event{
     display: flex;
-   }
-    .reservations-content{
-        position:absolute;
-        top: 150%;
-        left: 145%;
-        text-align: center;
-        line-height: 0.8em;
-        p{
-            color: white;
-            font-size: 32px;
-            font-family: "American Typewriter Normal";
-            font-style: normal;
-            font-weight: 400;
-            line-height: 0.1em;
-                                                
-        }
-        h1{
-            color:#a34119;
-            font-size: 64px;
-            font-family: "American Typewriter Normal";
-            font-style: normal;
-            font-weight: 500;
-            line-height: 0.1em;                                                
-        }
-    }
-    .menu-location-page{
-        position: relative;
-        display: flex;
-        width: 100vw;
-    }
-        .locations{
-            width:100vw;
-            height:100vh;
-            background-size: 111vh 53vw;
-            background-repeat: no-repeat;
-            text-align: center;
-            line-height: 0.1em;
-            align-items: center;
+    align-items: center;
+    gap: 6%;
+    
+        
 
-            h1{
-                color: white;
-                font-size: 3vw;
-            }
-            p{
-                align-items: center;
-                margin-top: 40%;
-                font-family: "American Typewriter Normal";
-                color: #b34215;
-                font-weight: 400;
-                font-size: 30px;
-                line-height: 27px;
-            }
-            a{
-                color: white;
-                text-decoration: none;
-            }
-        }
-        .locations:nth-child(1){
-        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/welcome.jpg);
-        
-        }
-        .locations:nth-child(2){
-            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/kilimani.jpg);
-            
-        }
-        
-    .navigation-bar{
-        position:absolute;
-        top:85%;
-        left:30%;
-        font-size: large;
-        
-        nav{
-            justify-content: center;
-            background-color: rgb(9,10,10);
-            width: 40vw;
-            height: 4vh;
-            padding: 3%;
-            border-radius:7vw;
-            align-items: normal;
-        }
-        nav svg{
-            color: white;
-            width: 1.5vw;
-            height: 1.9vh;
-        }
-        .lucide-clock-3:hover{
-            background-color: white;
-                color: rgb(71, 68, 68);
-                border-radius: 95px;
-                width: 1vw;
-                height:2vh;
-                padding:0.5vw ;
-                margin-top: -1.5vh ;
-            }
-        nav i{
-            
-            justify-items: baseline;
-            color:white;
-            border:none;
-            margin: 0 0.1vw;
-        }
-        nav ul{
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            margin: 0 0.75vw;
-        }
-        nav ul li a:hover{
-            border: 1px solid #191a1a;
-            background-color: #191a1a;
-            border-radius: 0;
-            padding: 15px;
-        }
-        #reservations{
-            background-color: rgb(160, 157, 157);
-            border-radius: 25px;
-            height:1vh;
-            padding: 3%;
-            margin-top:-3%;
-            margin-left: 2%;
-        }
-       #reservations a:hover {
-            color: black;
-            text-align: center;
-            
-        }
-        .hours-icon{
-            position: relative;
-            display: block;
-            margin-top: 0.25%;
-        }
-        .opening-hours{
-            display: inline-block;
-            position: absolute;
-            color: black;
-            background-color: white;
-            border: none;
-            width: 12vw;
-            border-radius: 20px;
-            z-index:1;
-            display: none;
-            bottom: 150%;
-            padding: 3vh; 
-        }
-        .hours-icon:hover .opening-hours{
-            display: block;
-            
-        }
-    }
-    .menu-image{
-        position: absolute;
-       img{
-           margin-left: 170%;
-           margin-top: 50%;
-           width: 12vw;
-       }
-   }
-   .ankole-menu{
+    
+}
+.them-mushrooms-event{
     display: flex;
-   }
-    .menu-header{
-        position:absolute;
-        top: 150%;
-        left: 145%;
-        text-align: center;
-        line-height: 0.8em;
-        p{
-            color: white;
-            font-size: 32px;
-            font-family: "American Typewriter Normal";
-            font-style: normal;
-            font-weight: 400;
-            line-height: 0.1em;
-                                                
-        }
-        h1{
-            color:#a34119;
-            font-size: 64px;
-            font-family: "American Typewriter Normal";
-            font-style: normal;
-            font-weight: 500;
-            line-height: 0.1em;                                                
-        }
-    }
-   .menu-page{
-       background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/menu.jpg);
-       position: relative;
-       width: 52vw;
-       height: 100vh;
-       background-repeat: no-repeat;
-       margin-top: 0;
-   }
-   .menu{
-    background-color: black;
-    width:50%;
+    align-items:center;
+    gap: 6%;
+}
+.koko-koseso-event{
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    
+}
+.live-navigation-bar{
+    position:absolute;
+    top:85%;
+    left:3%;
+    font-size: large;
+    
     nav{
+        justify-content: center;
+        background-color: rgb(9,10,10);
+        width: 40vw;
+        height: 4vh;
+        padding: 3%;
+        border-radius:7vw;
+        align-items: normal;
+    }
+    nav svg{
+        color: #737373;
+        width: 1.5vw;
+        height: 1.9vh;
+    }
+    .lucide-clock-3:hover{
+        background-color: white;
+            color: rgb(71, 68, 68);
+            border-radius: 95px;
+            width: 1vw;
+            height:2vh;
+            padding:0.5vw ;
+            margin-top: -1.5vh ;
+        }
+    nav i{
+        
+        justify-items: baseline;
+        color:white;
+        border:none;
+        margin: 0 0.1vw;
+    }
+    nav ul{
+        list-style: none;
         display: flex;
-        gap: 6%;
         justify-content: center;
     }
-    nav a{
+    nav ul li a {
+        color: white;
         text-decoration: none;
-        color: gray;
-        font-family: "American Typewriter Normal";
-        font-weight: 400;
-        font-style: normal;
-        font-size: 14px;
-        line-height: 26px;
-        
+        margin: 0 0.75vw;
+    }
+    nav ul li a:focus-visible{
+        border: 1px solid #191a1a;
+        background-color: #191a1a;
+        border-radius: 0;
+        padding: 15px;
+    }
+    .hours-icon{
+        position: relative;
+        display: block;
+        margin-left: 2%;
+        color: #737373;
+    }
+    .fa-bars{
+        color: #737373;
+    }
+    .opening-hours{
+        display: inline-block;
+        position: absolute;
+        color: black;
+        background-color: white;
+        border: none;
+        width: 12vw;
+        border-radius: 20px;
+        z-index:1;
+        display: none;
+        bottom: 150%;
+        padding: 3vh; 
+        h6{
+            font-size: 20px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em; 
+        }
     }
 }
-    .menu-navigation-bar{
-        position:absolute;
-        top:85%;
-        left:3%;
-        font-size: large;
-        
-        nav{
-            justify-content: center;
-            background-color: rgb(9,10,10);
-            width: 40vw;
-            height: 4vh;
-            padding: 3%;
-            border-radius:7vw;
-            align-items: normal;
-        }
-        nav svg{
-            color: white;
-            width: 1.5vw;
-            height: 1.9vh;
-        }
-        .lucide-clock-3:hover{
-            background-color: white;
-                color: rgb(71, 68, 68);
-                border-radius: 95px;
-                width: 1vw;
-                height:2vh;
-                padding:0.5vw ;
-                margin-top: -1.5vh ;
-            }
-        nav i{
-            
-            justify-items: baseline;
-            color:white;
-            border:none;
-            margin: 0 0.1vw;
-        }
-        nav ul{
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            margin: 0 0.75vw;
-        }
-        nav ul li a:hover{
-            border: 1px solid #191a1a;
-            background-color: #191a1a;
-            border-radius: 0;
-            padding: 15px;
-        }
-        #reservations{
-            background-color: rgb(160, 157, 157);
-            border-radius: 25px;
-            height:1vh;
-            padding: 3%;
-            margin-top:-3%;
-            margin-left: 2%;
-        }
-       #reservations a:hover {
-            color: black;
-            text-align: center;
-            
-        }
-        .hours-icon{
-            position: relative;
-            display: block;
-            margin-top: 0.25%;
-        }
-        .opening-hours{
-            display: inline-block;
-            position: absolute;
-            color: black;
-            background-color: white;
-            border: none;
-            width: 12vw;
-            border-radius: 20px;
-            z-index:1;
-            display: none;
-            bottom: 150%;
-            padding: 3vh; 
-        }
-        .hours-icon:hover .opening-hours{
-            display: block;
-            
-        }
+#reservations{
+    background-color: rgb(160, 157, 157);
+    border-radius: 25px;
+    height:1vh;
+    padding: 3%;
+    margin-top:-3%;
+    margin-left: 2%;
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0.75vw;
     }
-   
+}
+#reservations a:hover{
+    color: black;
+    text-align: center;
+    background-color: 0;
+    
+}

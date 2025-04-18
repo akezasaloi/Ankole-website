@@ -1,0 +1,159 @@
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.fadhile-live{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%),url("images/fadhile-ankolegrill-Live.jpg");
+    background-size: 190vh 104.5vw;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 100vw;
+}
+.them-mushrooms-live{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%),url("images/them-mushrooms.jpg");
+    background-size: 190vh 104.5vw;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 100vw;
+}
+.koko-koseko-live{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%),url("images/koko-koseso.jpg");
+    background-size: 190vh 104.5vw;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 100vw;
+}
+.live-heading{
+    position: absolute;
+    height: 100vh;
+    p{
+        text-align: center;
+        color: white;
+        font-size: 64px;
+        font-family: "American Typewriter",sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 70px;
+        transform: translate(25vw,50vh);
+                                            
+    }
+}
+.navigation-bar{
+    position:absolute;
+    top:85%;
+    left:30%;
+    font-size: large;
+    
+    nav{
+        justify-content: center;
+        background-color: rgb(9,10,10);
+        width: 40vw;
+        height: 4vh;
+        padding: 3%;
+        border-radius:7vw;
+        align-items: normal;
+    }
+    nav svg{
+
+        width: 1.5vw;
+        height: 1.9vh;
+    }
+    .lucide-clock-3:hover{
+        background-color: white;
+            color: rgb(71, 68, 68);
+            border-radius: 95px;
+            width: 1vw;
+            height:2vh;
+            padding:0.5vw ;
+            margin-top: -1.5vh ;
+        }
+    nav i{
+        
+        justify-items: baseline;
+        color:white;
+        border:none;
+        margin: 0 0.1vw;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        margin: 1vw;
+    }
+    nav ul li a:hover{
+        color: gray;
+    }
+    nav ul li a:focus-visible{
+        border: 1px solid #191a1a;
+        background-color: #191a1a;
+        border-radius: 0;
+        padding: 15px;
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        text-decoration: none;
+        color: white;
+    }
+   #reservations:hover{
+        color: black;
+        text-align: center;
+        
+    }
+    .hours-icon{
+        position: relative;
+        display: block;
+        margin-left: 2%;
+        color: #737373;
+        
+    }
+    .fa-bars{
+        color: #737373;
+    }
+    .opening-hours{
+        display: inline-block;
+        position: absolute;
+        color: black;
+        background-color: white;
+        border: none;
+        width: 12vw;
+        border-radius: 20px;
+        z-index:1;
+        display: none;
+        bottom: 255%;
+        padding: 3vh; 
+        h6{
+            font-size: 20px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em; 
+        }
+
+    }
+    .hours-icon:hover .opening-hours{
+        display: block;
+        
+    }
+}
+.whatsapp{
+    position: absolute;
+padding-left: 95%;
+top: 85%;
+i{
+    padding: 100%;
+    background-color: black;
+    color: white;
+    border: solid 0.5px;
+    border-radius: 50%;
+}
+}

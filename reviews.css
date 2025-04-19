@@ -1,54 +1,49 @@
 @import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
-.reviews-slideshow{
+.reviews-page{
     background-color: rgb(0,0,0);
     width: 100vw;
     height: 100vh;
 }
-body{
-margin: 0;
-padding: 0;
+.review-button{
+position: absolute;
+top: 50%;
+padding: 16px;
+margin-top: -22px;
+background-color: black;
+border: none;
+cursor: pointer;
+left: 100;
 }
-.reviews-description{
+.display-left{
+margin-left: 53vh;
+font-size: 2.9vh;
+color: #292929;
+}
+.display-right{
+margin-left: 145vh;
+font-size: 2.9vh;
+color: #292929;
+}
+.review{
+position: absolute;
+top: 40vh;
+left: 60vh;
 p{
-    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
     color: white;
     text-align: center;
 }
 }
-.nav-button{
-position: absolute;
-top: 50%;
-width: auto;
-padding: 16px;
-margin-top: -22px;
-color: white;
-background-color: black;
-border: none;
-cursor: pointer;
-opacity: 0.8;
-font-size: 18px;
-left: 100;
-}
-.display-left{
-margin-left: 50vh;
-font-size: 4vh;
-color: rgb(194, 189, 189);
-}
-.display-right{
-margin-left: 150vh;
-font-size: 4vh;
-color: rgb(192, 188, 188);
-}
-
-
-.reviews-description{
-position: absolute;top: 40vh;left: 60vh;
-}
 .fa-quote-left{
-color: rgb(179,66,21);font-size: 3vh;margin-right: 80vh;
+color:#b34215;
+font-size: 3vh;
+margin-right: 80vh;
 }
 .fa-quote-right{
-color:rgb(179,66,21);font-size: 3vh;margin-left: 80vh;
+color:#b34215;
+font-size: 3vh;
+margin-left: 80vh;
 }
 .reviews-paragraph{
 text-align: center;

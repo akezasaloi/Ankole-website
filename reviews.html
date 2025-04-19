@@ -8,9 +8,8 @@
   <link rel="stylesheet" href="./reviews.css" />
   </head>
   <body>
-    <div class="reviews-slideshow">
-        <div class="reviews-page">
-            <div class="reviews-description">
+    <div class="reviews-page">
+            <div class="review">
                     <p>
                     <i class="fa-solid fa-quote-left"></i>
                     <br>
@@ -18,32 +17,39 @@
                     <b>Such a fantastic restaurant, I plan on being a regular here. The food is amazing the atmosphere is so nice and <br> 
                     the service is exceptional. I pray you are able to visit them at least once so you can understand what I'm saying.<br>
                     10/10.Recommended dishes: Steak must go visitthem!<br> 
-                    Paul Kamau</b><br>KITISURU <br>
+                    Paul Kamau</b><br>KITISURU<br>
                     <i class="fa-solid fa-quote-right"></i>
                     </p>
             </div>
-        </div>
-        <div class="reviews-page">
-            <div class="reviews-description">
-                
+            <div class="review">
                     <p>
-                        <i class="fa-solid fa-quote-left"></i>
+                    <i class="fa-solid fa-quote-left"></i>
                     <br>
                     <br>
-                    <b>Greatcocktails. I love the ambience. The food was superb. Beautiful
-                    garden. Goodstaff. Nice for a date or a <br />
-                    group event. Many smaller spaces that flow intoeach other so never
-                    seems packed. The architect did a great <br />
-                    job.One of myfavorites. Definitely going back</b><br><br>
+                    <b>Best place to eat out. If you want to have a niceromantic date this place is perfect. The food is fantastic only
+                      <br> be carefulcause the portions are bigger than you would expect.<br>
+                      Vladimiro Stivali</b><br>KITISURU<br>
                     <i class="fa-solid fa-quote-right"></i>
                     </p>
-                
-        </div>
-        </div>
-        <button class="nav-button display-left" onclick="plusDivs(-1)">
+            </div>
+            <div class="review">
+              <p>
+              <i class="fa-solid fa-quote-left"></i>
+              <br>
+              <br>
+              <b>Ankole grill is perfect for a night out with groups orsolo dining. It's a lovely space with cushy furniture and a 
+                <br>fine outdoor diningarea. The music isn't too loud, just the right level so you have hearyourselves speak. They
+                <br> have a wide array of food, which was tasty, with thesteak done to perfection. Their dessert options is<br>
+                commendable. Not to forget,the wait staff quite attentive.<br>
+                Osayu Uwaifo</b><br>KILIMANI<br>
+              <i class="fa-solid fa-quote-right"></i>
+              </p>
+            </div>
+      
+        <button class="review-button display-left" onclick="plusDivs(-1)">
             &#10094;
         </button>
-        <button class="nav-button display-right" onclick="plusDivs(1)">
+        <button class="review-button display-right" onclick="plusDivs(1)">
             &#10095;
         </button>
     </div>
@@ -96,7 +102,7 @@
       }
       function showDivs(n) {
         var i;
-        var x = document.getElementsByClassName("reviews-description");
+        var x = document.getElementsByClassName("review");
         if (n > x.length) {
           slideIndex = 1;
         }

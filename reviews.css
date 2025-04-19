@@ -44,7 +44,7 @@ p{
     text-align: center;
     font-family: "American Typewriter";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
 }
 }
 .fa-quote-left{
@@ -63,7 +63,88 @@ text-align: center;
 
    
 @media only screen and (max-width: 600px) {
-
+    @import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+.ankole-logo{
+    
+    position: relative;
+    background-size: cover;
+    width: 30vh;
+    transform: translate(-43vw,5vh);
+    overflow: auto;
+    height: 100vh;
+    h1{
+        font-family: "American Typewriter";
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.1em; 
+        font-size: 64px; 
+        
+    }
+    img{
+        display: none;
+    }
+    
+}
+    .reviews-page{
+        background-image: url(images/ankole.svg);
+        background-repeat: no-repeat;
+        background-size: -30vw;
+        background-color: rgb(0,0,0);
+        overflow: hidden;
+        width: 100vw;
+        height: 130vh;
+    }
+    .review-button{
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    left: -110%;
+    }
+    .display-left{
+    margin-left: 50vh;
+    font-size: 2.9vh;
+    color: #292929;
+    }
+    .display-right{
+    margin-left: 84vh;
+    font-size: 2.9vh;
+    color: #292929;
+    }
+    .review{
+    position: absolute;
+    overflow: auto;
+    top: -3vh;
+    left: 10vh;
+    width: 50vw;
+    height: 100vh;
+    p{
+        line-height: 30px;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        font-family: "American Typewriter";
+        font-style: normal;
+        font-weight: 600;
+    }
+    }
+    .fa-quote-left{
+    color:#b34215;
+    font-size: 3vh;
+    margin-right: 80vh;
+    }
+    .fa-quote-right{
+    color:#b34215;
+    font-size: 3vh;
+    margin-left: 80vh;
+    }
+    .reviews-paragraph{
+    text-align: center;
+    }
+    
 }
 
 @media only screen and (min-width: 600px) {}

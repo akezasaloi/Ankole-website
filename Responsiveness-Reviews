@@ -1,0 +1,17 @@
+Put Reveiews h1 inside the paragraph div
+put its styling inside review div's styling
+
+
+
+
+
+
+As a user, I want to know their opening hours so that I can plan my schedule.
+
+Acceptance criteria
+
+The system shall allow users to see the restaurant’s opening hours 
+
+The system shall allow users to contact them via WhatsApp, Facebook, and Instagram.
+
+Given that I am on the home page, when  I click on the hours icon then  I expect to see the hours they are open.

@@ -82,7 +82,7 @@ text-align: center;
     }
     .review-button{
     position: absolute;
-    top: 40%;
+    top: 45%;
     padding: 16px;
     margin-top: -22px;
     background-color: black;
@@ -91,7 +91,7 @@ text-align: center;
     left: 100;
     }
     .display-left{
-    margin-left: 1vh;
+    margin-left: 0.1vh;
     font-size: 2.9vh;
     color: #292929;
     }
@@ -102,9 +102,9 @@ text-align: center;
     }
     .review{
     position: absolute;
-    overflow: auto;
+    /* overflow: scroll; */
     top: 15vh;
-    left: 13vh;
+    left: 12vh;
     width: 50vw;
     height: 130vh;
     h1{

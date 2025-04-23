@@ -44,15 +44,189 @@
 
     }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-@media only screen and (min-width: 600px) {}
+    .events-page{
+        position: relative;
+        display: flex;
+        margin:0;
+        width: 100vw;
+       }
+    
+       .event{
+        width:200%;
+        height:100vh;
+        text-align: center;
+        background-size: 70vh 65vw;
+        background-repeat: no-repeat;
+    
+        span{
+            
+            margin-top: 5000vh;
+            color: rgb(160, 157, 157);
+        }
+        h1{
+            margin-top: 50%;
+            color: white;
+            font-size: 450%;
+        }
+        p{
+            color: goldenrod;
+        }
+        #contact-info{
+            color: white;
+        }
+       }
+       .event:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
+        
+        }
+        .event:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
+            
+        }
+        .event:nth-child(3){
+            background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
+    
+        }}
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .events-page{
+        position: relative;
+        display: flex;
+        margin:0;
+        width: 100vw;
+       }
+    
+       .event{
+        width:200%;
+        height:100vh;
+        text-align: center;
+        background-size: 70vh 65vw;
+        background-repeat: no-repeat;
+    
+        span{
+            
+            margin-top: 5000vh;
+            color: rgb(160, 157, 157);
+        }
+        h1{
+            margin-top: 50%;
+            color: white;
+            font-size: 450%;
+        }
+        p{
+            color: goldenrod;
+        }
+        #contact-info{
+            color: white;
+        }
+       }
+       .event:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
+        
+        }
+        .event:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
+            
+        }
+        .event:nth-child(3){
+            background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
+    
+        }}
 
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .events-page{
+        position: relative;
+        display: flex;
+        margin:0;
+        width: 100vw;
+       }
+    
+       .event{
+        width:200%;
+        height:100vh;
+        text-align: center;
+        background-size: 70vh 65vw;
+        background-repeat: no-repeat;
+    
+        span{
+            
+            margin-top: 5000vh;
+            color: rgb(160, 157, 157);
+        }
+        h1{
+            margin-top: 50%;
+            color: white;
+            font-size: 450%;
+        }
+        p{
+            color: goldenrod;
+        }
+        #contact-info{
+            color: white;
+        }
+       }
+       .event:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
+        
+        }
+        .event:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
+            
+        }
+        .event:nth-child(3){
+            background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
+    
+        }}
 
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .events-page{
+        position: relative;
+        display: flex;
+        margin:0;
+        width: 100vw;
+       }
+    
+       .event{
+        width:200%;
+        height:100vh;
+        text-align: center;
+        background-size: 70vh 65vw;
+        background-repeat: no-repeat;
+    
+        span{
+            
+            margin-top: 5000vh;
+            color: rgb(160, 157, 157);
+        }
+        h1{
+            margin-top: 50%;
+            color: white;
+            font-size: 450%;
+        }
+        p{
+            color: goldenrod;
+        }
+        #contact-info{
+            color: white;
+        }
+       }
+       .event:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/acrra.jpg);
+        
+        }
+        .event:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/zanzibar.jpg);
+            
+        }
+        .event:nth-child(3){
+            background-image:linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/decor.jpg);
+    
+        }}

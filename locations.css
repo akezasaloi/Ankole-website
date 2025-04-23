@@ -40,16 +40,177 @@
         background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/kilimani.jpg);
         
     }
+@media only screen and (min-width: 600px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-@media only screen and (max-width: 600px) {}
+    .menu-location-page{
+        position: relative;
+        display: flex;
+        width: 100vw;
+    }
+        .locations{
+            width:100vw;
+            height:100vh;
+            background-size: 111vh 53vw;
+            background-repeat: no-repeat;
+            text-align: center;
+            line-height: 0.1em;
+            align-items: center;
+    
+            h1{
+                color: white;
+                font-size: 3vw;
+            }
+            p{
+                align-items: center;
+                margin-top: 40%;
+                font-family: "American Typewriter Normal";
+                color: #b34215;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 27px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .locations:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/welcome.jpg);
+        
+        }
+        .locations:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/kilimani.jpg);
+            
+        }}
 
-@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .menu-location-page{
+        position: relative;
+        display: flex;
+        width: 100vw;
+    }
+        .locations{
+            width:100vw;
+            height:100vh;
+            background-size: 111vh 53vw;
+            background-repeat: no-repeat;
+            text-align: center;
+            line-height: 0.1em;
+            align-items: center;
+    
+            h1{
+                color: white;
+                font-size: 3vw;
+            }
+            p{
+                align-items: center;
+                margin-top: 40%;
+                font-family: "American Typewriter Normal";
+                color: #b34215;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 27px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .locations:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/welcome.jpg);
+        
+        }
+        .locations:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/kilimani.jpg);
+            
+        }}
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .menu-location-page{
+        position: relative;
+        display: flex;
+        width: 100vw;
+    }
+        .locations{
+            width:100vw;
+            height:100vh;
+            background-size: 111vh 53vw;
+            background-repeat: no-repeat;
+            text-align: center;
+            line-height: 0.1em;
+            align-items: center;
+    
+            h1{
+                color: white;
+                font-size: 3vw;
+            }
+            p{
+                align-items: center;
+                margin-top: 40%;
+                font-family: "American Typewriter Normal";
+                color: #b34215;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 27px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .locations:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/welcome.jpg);
+        
+        }
+        .locations:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/kilimani.jpg);
+            
+        }}
 
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-
-@media only screen and (min-width: 1200px) {}
+    .menu-location-page{
+        position: relative;
+        display: flex;
+        width: 100vw;
+    }
+        .locations{
+            width:100vw;
+            height:100vh;
+            background-size: 111vh 53vw;
+            background-repeat: no-repeat;
+            text-align: center;
+            line-height: 0.1em;
+            align-items: center;
+    
+            h1{
+                color: white;
+                font-size: 3vw;
+            }
+            p{
+                align-items: center;
+                margin-top: 40%;
+                font-family: "American Typewriter Normal";
+                color: #b34215;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 27px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .locations:nth-child(1){
+        background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(images/welcome.jpg);
+        
+        }
+        .locations:nth-child(2){
+            background-image: linear-gradient(rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)), url(./images/kilimani.jpg);
+            
+        }}

@@ -1,0 +1,1816 @@
+@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+.menu-image{
+    position: absolute;
+    height: 100vh;
+   img{
+       margin-left: 170%;
+       margin-top: 50%;
+       width: 12vw;
+      
+       
+   }
+}
+.ankole-menu{
+display: flex;
+
+}
+.menu-header{
+    position:absolute;
+    top: 45%;
+    left: 165%;
+    text-align: center;
+    line-height: 0.8em;
+
+    p{
+        color: white;
+        font-size: 32px;
+        font-family: "American Typewriter";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0.1em;
+                                            
+    }
+    h1{
+        color:#a34119;
+        font-size: 64px;
+        font-family: "American Typewriter";
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.1em;                                                
+    }
+}
+.menu-page{
+   background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/menu.jpg);
+   position: relative;
+   width: 52vw;
+   height: 100vh;
+   background-repeat: no-repeat;
+   margin-top: 0;
+   background-position: 100%;
+    
+}
+.menu-background{
+background-color: black;
+color: white;
+width:50%;
+height: 100vh;
+overflow: auto;
+nav{
+    display: flex;
+    gap: 6%;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: #c5c5c5;
+    font-family: "American Typewriter";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    
+}
+nav a:hover{
+    color: #efb26c;
+}
+nav a:focus-visible{
+    color: #efb26c;
+}
+}
+.menu{
+    margin-top: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 18%;
+    h1{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 34px;
+        line-height: 26px;
+    }
+    p{
+        color: #c5c5c5;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+}
+#drinks{
+    h6{
+        color: #c5c5c5;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height:24px;
+    }
+    h4{
+        color: #fff;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 31px;
+    }
+}
+.breakfast-options{
+    display: flex;
+    justify-content: space-between;
+}
+.food-options{
+    display: flex;
+    justify-content: space-between;
+}
+.drinks-options{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    color: #b34215;
+}
+
+.heavy-breakfast{
+    img{
+        width:4vw;
+    }
+}
+.small-plates-and-house-specials{
+    img{
+        width:4vw;
+    }
+}
+.happy-hour{
+    img{
+        width:4vw;
+    }
+}
+.ranch-breakfast{
+    display: flex;
+    gap: 2.5%;
+    h3{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 27.2%;
+    }
+}
+.spicy-fried-okra{
+    display: flex;
+    gap: 2.5%;
+    h3{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 55%;
+    }
+}
+.crispy-chicken-strips{
+    display: flex;
+    gap: 2.5%;
+    h3{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 55%;
+    }
+}
+.spanish-omelette{
+    display: flex;
+    gap: 2.5%;
+    h3{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 55%;
+    }
+}
+.liberian-peanut-chicken{
+    display: flex;
+    gap: 2.5%;
+    h3{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 55%;
+    }
+}
+.wines{
+    display: flex;
+    gap: 2.5%;
+    h3{
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    p{
+        margin-left: 55%;
+    }
+}
+.heavy-breakfast-options{
+    p{
+        font-family: 'Gill Sans';
+        font-size: 16px;
+        margin: 0;
+    }
+}
+.small-plates-and-house-specials-options{
+    p{
+        font-family: 'Gill Sans';
+        font-size: 16px;
+        margin: 0;
+    }
+}
+.happy-hour-options{
+    p{
+        font-family: 'Gill Sans';
+        font-size: 16px;
+        margin: 0;
+    }
+    
+}
+.menu-navigation-bar{
+    position:absolute;
+    top:85%;
+    left:3%;
+    font-size: large;
+    
+    nav{
+        justify-content: center;
+        background-color: rgb(9,10,10);
+        width: 40vw;
+        height: 4vh;
+        padding: 3%;
+        border-radius:7vw;
+        align-items: normal;
+    }
+    nav svg{
+        color: #737373;
+        width: 1.5vw;
+        height: 1.9vh;
+    }
+    .lucide-clock-3:hover{
+        background-color: white;
+            color: rgb(71, 68, 68);
+            border-radius: 95px;
+            width: 1vw;
+            height:2vh;
+            padding:0.5vw ;
+            margin-top: -1.5vh ;
+        }
+    nav i{
+        
+        justify-items: baseline;
+        color:white;
+        border:none;
+        margin: 0 0.1vw;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        margin: 0 0.75vw;
+    }
+    nav ul li a:hover{
+        color: gray;
+    }
+    nav ul li a:focus-visible{
+        border: 1px solid #191a1a;
+        background-color: #191a1a;
+        border-radius: 0;
+        padding: 15px;
+    }
+    .hours-icon{
+        position: relative;
+        display: block;
+        margin-left: 2%;
+        color: #737373;
+    }
+    .fa-bars{
+        color: #737373;
+    }
+    .opening-hours{
+        display: inline-block;
+        position: absolute;
+        color: black;
+        background-color: white;
+        border: none;
+        width: 12vw;
+        border-radius: 20px;
+        z-index:1;
+        display: none;
+        bottom: 150%;
+        padding: 3vh; 
+        h6{
+            font-size: 20px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em; 
+        }
+    }
+}
+#reservations{
+    background-color: rgb(160, 157, 157);
+    border-radius: 25px;
+    height:1vh;
+    padding: 3%;
+    margin-top:-3%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0.75vw;
+    }
+}
+#reservations a:hover{
+    color: black;
+    text-align: center;
+    background-color: 0;
+    
+}
+@media only screen and (min-width: 600px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+    .menu-image{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;
+          
+           
+       }
+    }
+    .ankole-menu{
+    display: flex;
+    
+    }
+    .menu-header{
+        position:absolute;
+        top: 45%;
+        left: 165%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .menu-page{
+       background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/menu.jpg);
+       position: relative;
+       width: 52vw;
+       height: 100vh;
+       background-repeat: no-repeat;
+       margin-top: 0;
+       background-position: 100%;
+        
+    }
+    .menu-background{
+    background-color: black;
+    color: white;
+    width:50%;
+    height: 100vh;
+    overflow: auto;
+    nav{
+        display: flex;
+        gap: 6%;
+        justify-content: center;
+    }
+    nav a{
+        text-decoration: none;
+        color: #c5c5c5;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 26px;
+        
+    }
+    nav a:hover{
+        color: #efb26c;
+    }
+    nav a:focus-visible{
+        color: #efb26c;
+    }
+    }
+    .menu{
+        margin-top: 8%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 18%;
+        h1{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 26px;
+        }
+        p{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        
+    }
+    #drinks{
+        h6{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height:24px;
+        }
+        h4{
+            color: #fff;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+    .breakfast-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .food-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .drinks-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        color: #b34215;
+    }
+    
+    .heavy-breakfast{
+        img{
+            width:4vw;
+        }
+    }
+    .small-plates-and-house-specials{
+        img{
+            width:4vw;
+        }
+    }
+    .happy-hour{
+        img{
+            width:4vw;
+        }
+    }
+    .ranch-breakfast{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 27.2%;
+        }
+    }
+    .spicy-fried-okra{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .crispy-chicken-strips{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .spanish-omelette{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .liberian-peanut-chicken{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .wines{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .heavy-breakfast-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .small-plates-and-house-specials-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .happy-hour-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+        
+    }
+    .menu-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        text-decoration: none;
+        color: white;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}
+
+
+@media only screen and (min-width: 768px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+    .menu-image{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;
+          
+           
+       }
+    }
+    .ankole-menu{
+    display: flex;
+    
+    }
+    .menu-header{
+        position:absolute;
+        top: 45%;
+        left: 165%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .menu-page{
+       background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/menu.jpg);
+       position: relative;
+       width: 52vw;
+       height: 100vh;
+       background-repeat: no-repeat;
+       margin-top: 0;
+       background-position: 100%;
+        
+    }
+    .menu-background{
+    background-color: black;
+    color: white;
+    width:50%;
+    height: 100vh;
+    overflow: auto;
+    nav{
+        display: flex;
+        gap: 6%;
+        justify-content: center;
+    }
+    nav a{
+        text-decoration: none;
+        color: #c5c5c5;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 26px;
+        
+    }
+    nav a:hover{
+        color: #efb26c;
+    }
+    nav a:focus-visible{
+        color: #efb26c;
+    }
+    }
+    .menu{
+        margin-top: 8%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 18%;
+        h1{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 26px;
+        }
+        p{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        
+    }
+    #drinks{
+        h6{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height:24px;
+        }
+        h4{
+            color: #fff;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+    .breakfast-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .food-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .drinks-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        color: #b34215;
+    }
+    
+    .heavy-breakfast{
+        img{
+            width:4vw;
+        }
+    }
+    .small-plates-and-house-specials{
+        img{
+            width:4vw;
+        }
+    }
+    .happy-hour{
+        img{
+            width:4vw;
+        }
+    }
+    .ranch-breakfast{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 27.2%;
+        }
+    }
+    .spicy-fried-okra{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .crispy-chicken-strips{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .spanish-omelette{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .liberian-peanut-chicken{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .wines{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .heavy-breakfast-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .small-plates-and-house-specials-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .happy-hour-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+        
+    }
+    .menu-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        text-decoration: none;
+        color: white;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}
+
+
+@media only screen and (min-width: 992px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+    .menu-image{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;
+          
+           
+       }
+    }
+    .ankole-menu{
+    display: flex;
+    
+    }
+    .menu-header{
+        position:absolute;
+        top: 45%;
+        left: 165%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .menu-page{
+       background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/menu.jpg);
+       position: relative;
+       width: 52vw;
+       height: 100vh;
+       background-repeat: no-repeat;
+       margin-top: 0;
+       background-position: 100%;
+        
+    }
+    .menu-background{
+    background-color: black;
+    color: white;
+    width:50%;
+    height: 100vh;
+    overflow: auto;
+    nav{
+        display: flex;
+        gap: 6%;
+        justify-content: center;
+    }
+    nav a{
+        text-decoration: none;
+        color: #c5c5c5;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 26px;
+        
+    }
+    nav a:hover{
+        color: #efb26c;
+    }
+    nav a:focus-visible{
+        color: #efb26c;
+    }
+    }
+    .menu{
+        margin-top: 8%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 18%;
+        h1{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 26px;
+        }
+        p{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        
+    }
+    #drinks{
+        h6{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height:24px;
+        }
+        h4{
+            color: #fff;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+    .breakfast-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .food-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .drinks-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        color: #b34215;
+    }
+    
+    .heavy-breakfast{
+        img{
+            width:4vw;
+        }
+    }
+    .small-plates-and-house-specials{
+        img{
+            width:4vw;
+        }
+    }
+    .happy-hour{
+        img{
+            width:4vw;
+        }
+    }
+    .ranch-breakfast{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 27.2%;
+        }
+    }
+    .spicy-fried-okra{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .crispy-chicken-strips{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .spanish-omelette{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .liberian-peanut-chicken{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .wines{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .heavy-breakfast-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .small-plates-and-house-specials-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .happy-hour-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+        
+    }
+    .menu-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        text-decoration: none;
+        color: white;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}
+
+
+@media only screen and (min-width: 1200px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+    .menu-image{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;
+          
+           
+       }
+    }
+    .ankole-menu{
+    display: flex;
+    
+    }
+    .menu-header{
+        position:absolute;
+        top: 45%;
+        left: 165%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter";
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .menu-page{
+       background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/menu.jpg);
+       position: relative;
+       width: 52vw;
+       height: 100vh;
+       background-repeat: no-repeat;
+       margin-top: 0;
+       background-position: 100%;
+        
+    }
+    .menu-background{
+    background-color: black;
+    color: white;
+    width:50%;
+    height: 100vh;
+    overflow: auto;
+    nav{
+        display: flex;
+        gap: 6%;
+        justify-content: center;
+    }
+    nav a{
+        text-decoration: none;
+        color: #c5c5c5;
+        font-family: "American Typewriter";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 26px;
+        
+    }
+    nav a:hover{
+        color: #efb26c;
+    }
+    nav a:focus-visible{
+        color: #efb26c;
+    }
+    }
+    .menu{
+        margin-top: 8%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 18%;
+        h1{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 34px;
+            line-height: 26px;
+        }
+        p{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        
+    }
+    #drinks{
+        h6{
+            color: #c5c5c5;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height:24px;
+        }
+        h4{
+            color: #fff;
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+    .breakfast-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .food-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .drinks-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    h2{
+        color: #b34215;
+    }
+    
+    .heavy-breakfast{
+        img{
+            width:4vw;
+        }
+    }
+    .small-plates-and-house-specials{
+        img{
+            width:4vw;
+        }
+    }
+    .happy-hour{
+        img{
+            width:4vw;
+        }
+    }
+    .ranch-breakfast{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 27.2%;
+        }
+    }
+    .spicy-fried-okra{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .crispy-chicken-strips{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .spanish-omelette{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .liberian-peanut-chicken{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .wines{
+        display: flex;
+        gap: 2.5%;
+        h3{
+            font-family: "American Typewriter";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        p{
+            margin-left: 55%;
+        }
+    }
+    .heavy-breakfast-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .small-plates-and-house-specials-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+    .happy-hour-options{
+        p{
+            font-family: 'Gill Sans';
+            font-size: 16px;
+            margin: 0;
+        }
+        
+    }
+    .menu-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        text-decoration: none;
+        color: white;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}

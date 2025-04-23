@@ -123,16 +123,509 @@ display: flex;
        line-height: 0.1em;                                                
    }
 }
+@media only screen and (min-width: 600px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+   .reservations-page{
+      background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/reservations-image.jpg);
+      position: relative;
+      width: 52vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      margin-top: 0;
+      
+   }
+   .reservations-image{
+       position: absolute;
+      img{
+          margin-left: 170%;
+          margin-top: 50%;
+          width: 12vw;
+          /* fill-opacity:inherit; */
+          
+      }
    
-@media only screen and (max-width: 600px) {}
+   }
+   .reservation-form{
+      background-color: black;
+      width:50%;
+   }
+   form{
+      background-color: black;
+      margin-left: 8%;
+      margin-top: 5%;
+      border:  0px;
+      line-height: 2em;
+      border-radius: 25px;
+      width: 40.5vw;
+      height: 70vh;
+      padding-top: 6%;
+      padding-left: 2%;
+      color: white;
+      box-shadow:  0 4px 12px 0  rgba(72, 71, 71, 0.2);
+   }
+   label{
+      font-family: "American Typewriter";
+      font-size: 12.8px;
+      font-weight: 400;
+      line-height: 25.6px;
+      color: rgba(255, 255, 255, 0.8);
+   }
+   input{
+      width: 39vw;
+      background-color: black;
+      color: white;
+      border: solid 0.001px rgb(105, 104, 104);
+      padding: 1%;
+      height: 3vh; 
+      
+   }
+   input:focus{
+      outline: 0.01px solid rgb(5, 242, 5);
+      border-radius: 0;
+   } 
+   
+   #location{
+      width: 39.9vw;
+      background-color:#171717;
+      color: rgb(68, 66, 66);
+      border: solid 0.01px #cccccc;
+      border-radius: -25px;
+      height: 5vh;
+      color-scheme: dark;
+   }
+   select:focus{
+      outline:0.01px solid rgb(13, 13, 212);
+      border-radius: 0%;
+   }
+   #date{
+      color-scheme:dark;
+   }
+   #time{
+      color-scheme:dark;
+   }
+   #submit{
+      width: 40vw;
+      background-color:#f2d5a5;
+      color: #0b0000;
+      border: solid 0.1px rgb(15, 15, 15);
+      border-radius: 12px;
+      padding-top: 0.5%;
+      height: 7vh;
+      font-size: 100%;
+      font-style: normal;
+   }
+   #submit:focus{
+      outline: none;
+   }
+   #submit:hover{
+      background-color: #8a6e42;
+      color: #f2d5a5;
+   }
+   .ankole-reservation{
+   display: flex;
+   }
+   .reservations-content{
+      position:absolute;
+      top: 150%;
+      left: 145%;
+      text-align: center;
+      line-height: 0.8em;
+      p{
+          color: white;
+          font-size: 32px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 400;
+          line-height: 0.1em;
+                                              
+      }
+      h1{
+          color:#a34119;
+          font-size: 64px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 500;
+          line-height: 0.1em;                                                
+      }
+   }}
 
-@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+   .reservations-page{
+      background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/reservations-image.jpg);
+      position: relative;
+      width: 52vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      margin-top: 0;
+      
+   }
+   .reservations-image{
+       position: absolute;
+      img{
+          margin-left: 170%;
+          margin-top: 50%;
+          width: 12vw;
+          /* fill-opacity:inherit; */
+          
+      }
+   
+   }
+   .reservation-form{
+      background-color: black;
+      width:50%;
+   }
+   form{
+      background-color: black;
+      margin-left: 8%;
+      margin-top: 5%;
+      border:  0px;
+      line-height: 2em;
+      border-radius: 25px;
+      width: 40.5vw;
+      height: 70vh;
+      padding-top: 6%;
+      padding-left: 2%;
+      color: white;
+      box-shadow:  0 4px 12px 0  rgba(72, 71, 71, 0.2);
+   }
+   label{
+      font-family: "American Typewriter";
+      font-size: 12.8px;
+      font-weight: 400;
+      line-height: 25.6px;
+      color: rgba(255, 255, 255, 0.8);
+   }
+   input{
+      width: 39vw;
+      background-color: black;
+      color: white;
+      border: solid 0.001px rgb(105, 104, 104);
+      padding: 1%;
+      height: 3vh; 
+      
+   }
+   input:focus{
+      outline: 0.01px solid rgb(5, 242, 5);
+      border-radius: 0;
+   } 
+   
+   #location{
+      width: 39.9vw;
+      background-color:#171717;
+      color: rgb(68, 66, 66);
+      border: solid 0.01px #cccccc;
+      border-radius: -25px;
+      height: 5vh;
+      color-scheme: dark;
+   }
+   select:focus{
+      outline:0.01px solid rgb(13, 13, 212);
+      border-radius: 0%;
+   }
+   #date{
+      color-scheme:dark;
+   }
+   #time{
+      color-scheme:dark;
+   }
+   #submit{
+      width: 40vw;
+      background-color:#f2d5a5;
+      color: #0b0000;
+      border: solid 0.1px rgb(15, 15, 15);
+      border-radius: 12px;
+      padding-top: 0.5%;
+      height: 7vh;
+      font-size: 100%;
+      font-style: normal;
+   }
+   #submit:focus{
+      outline: none;
+   }
+   #submit:hover{
+      background-color: #8a6e42;
+      color: #f2d5a5;
+   }
+   .ankole-reservation{
+   display: flex;
+   }
+   .reservations-content{
+      position:absolute;
+      top: 150%;
+      left: 145%;
+      text-align: center;
+      line-height: 0.8em;
+      p{
+          color: white;
+          font-size: 32px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 400;
+          line-height: 0.1em;
+                                              
+      }
+      h1{
+          color:#a34119;
+          font-size: 64px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 500;
+          line-height: 0.1em;                                                
+      }
+   }}
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+   .reservations-page{
+      background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/reservations-image.jpg);
+      position: relative;
+      width: 52vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      margin-top: 0;
+      
+   }
+   .reservations-image{
+       position: absolute;
+      img{
+          margin-left: 170%;
+          margin-top: 50%;
+          width: 12vw;
+          /* fill-opacity:inherit; */
+          
+      }
+   
+   }
+   .reservation-form{
+      background-color: black;
+      width:50%;
+   }
+   form{
+      background-color: black;
+      margin-left: 8%;
+      margin-top: 5%;
+      border:  0px;
+      line-height: 2em;
+      border-radius: 25px;
+      width: 40.5vw;
+      height: 70vh;
+      padding-top: 6%;
+      padding-left: 2%;
+      color: white;
+      box-shadow:  0 4px 12px 0  rgba(72, 71, 71, 0.2);
+   }
+   label{
+      font-family: "American Typewriter";
+      font-size: 12.8px;
+      font-weight: 400;
+      line-height: 25.6px;
+      color: rgba(255, 255, 255, 0.8);
+   }
+   input{
+      width: 39vw;
+      background-color: black;
+      color: white;
+      border: solid 0.001px rgb(105, 104, 104);
+      padding: 1%;
+      height: 3vh; 
+      
+   }
+   input:focus{
+      outline: 0.01px solid rgb(5, 242, 5);
+      border-radius: 0;
+   } 
+   
+   #location{
+      width: 39.9vw;
+      background-color:#171717;
+      color: rgb(68, 66, 66);
+      border: solid 0.01px #cccccc;
+      border-radius: -25px;
+      height: 5vh;
+      color-scheme: dark;
+   }
+   select:focus{
+      outline:0.01px solid rgb(13, 13, 212);
+      border-radius: 0%;
+   }
+   #date{
+      color-scheme:dark;
+   }
+   #time{
+      color-scheme:dark;
+   }
+   #submit{
+      width: 40vw;
+      background-color:#f2d5a5;
+      color: #0b0000;
+      border: solid 0.1px rgb(15, 15, 15);
+      border-radius: 12px;
+      padding-top: 0.5%;
+      height: 7vh;
+      font-size: 100%;
+      font-style: normal;
+   }
+   #submit:focus{
+      outline: none;
+   }
+   #submit:hover{
+      background-color: #8a6e42;
+      color: #f2d5a5;
+   }
+   .ankole-reservation{
+   display: flex;
+   }
+   .reservations-content{
+      position:absolute;
+      top: 150%;
+      left: 145%;
+      text-align: center;
+      line-height: 0.8em;
+      p{
+          color: white;
+          font-size: 32px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 400;
+          line-height: 0.1em;
+                                              
+      }
+      h1{
+          color:#a34119;
+          font-size: 64px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 500;
+          line-height: 0.1em;                                                
+      }
+   }}
 
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-
-@media only screen and (min-width: 1200px) {}
+   .reservations-page{
+      background-image: linear-gradient(rgba(30, 29, 29, 0.5),rgba(30, 29, 29, 0.5)), url(./images/reservations-image.jpg);
+      position: relative;
+      width: 52vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      margin-top: 0;
+      
+   }
+   .reservations-image{
+       position: absolute;
+      img{
+          margin-left: 170%;
+          margin-top: 50%;
+          width: 12vw;
+          /* fill-opacity:inherit; */
+          
+      }
+   
+   }
+   .reservation-form{
+      background-color: black;
+      width:50%;
+   }
+   form{
+      background-color: black;
+      margin-left: 8%;
+      margin-top: 5%;
+      border:  0px;
+      line-height: 2em;
+      border-radius: 25px;
+      width: 40.5vw;
+      height: 70vh;
+      padding-top: 6%;
+      padding-left: 2%;
+      color: white;
+      box-shadow:  0 4px 12px 0  rgba(72, 71, 71, 0.2);
+   }
+   label{
+      font-family: "American Typewriter";
+      font-size: 12.8px;
+      font-weight: 400;
+      line-height: 25.6px;
+      color: rgba(255, 255, 255, 0.8);
+   }
+   input{
+      width: 39vw;
+      background-color: black;
+      color: white;
+      border: solid 0.001px rgb(105, 104, 104);
+      padding: 1%;
+      height: 3vh; 
+      
+   }
+   input:focus{
+      outline: 0.01px solid rgb(5, 242, 5);
+      border-radius: 0;
+   } 
+   
+   #location{
+      width: 39.9vw;
+      background-color:#171717;
+      color: rgb(68, 66, 66);
+      border: solid 0.01px #cccccc;
+      border-radius: -25px;
+      height: 5vh;
+      color-scheme: dark;
+   }
+   select:focus{
+      outline:0.01px solid rgb(13, 13, 212);
+      border-radius: 0%;
+   }
+   #date{
+      color-scheme:dark;
+   }
+   #time{
+      color-scheme:dark;
+   }
+   #submit{
+      width: 40vw;
+      background-color:#f2d5a5;
+      color: #0b0000;
+      border: solid 0.1px rgb(15, 15, 15);
+      border-radius: 12px;
+      padding-top: 0.5%;
+      height: 7vh;
+      font-size: 100%;
+      font-style: normal;
+   }
+   #submit:focus{
+      outline: none;
+   }
+   #submit:hover{
+      background-color: #8a6e42;
+      color: #f2d5a5;
+   }
+   .ankole-reservation{
+   display: flex;
+   }
+   .reservations-content{
+      position:absolute;
+      top: 150%;
+      left: 145%;
+      text-align: center;
+      line-height: 0.8em;
+      p{
+          color: white;
+          font-size: 32px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 400;
+          line-height: 0.1em;
+                                              
+      }
+      h1{
+          color:#a34119;
+          font-size: 64px;
+          font-family: "American Typewriter";
+          font-style: normal;
+          font-weight: 500;
+          line-height: 0.1em;                                                
+      }
+   }}

@@ -193,16 +193,789 @@
     background-color: 0;
     
 }
+@media only screen and (min-width: 600px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-@media only screen and (max-width: 600px) {}
+    .live-page{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/live-page-background.jpg);
+        width:100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    .live-front-and-logo{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;    
+       }
+    }
+    .live-header{
+        position:absolute;
+        top: 45%;
+        left: 190%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .live-events{
+        margin-top: 0;
+        margin-left: 55%;
+        height: 100vh;
+        display:flex;
+        gap: 7%;
+        flex-direction: column;
+        p{
+            color:#b34215;
+            font-size: 16px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;    
+        }
+        span{
+            color: #fff;
+            font-size: 24px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 31px; 
+            
+        }
+        img{
+            width: 20vw;
+            border-radius: 18px;
+        }
+    }
+    .fadhile-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;     
+    }
+    .them-mushrooms-event{
+        display: flex;
+        align-items:center;
+        gap: 6%;
+    }
+    .koko-koseso-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;
+        
+    }
+    .live-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}
 
-@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .live-page{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/live-page-background.jpg);
+        width:100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    .live-front-and-logo{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;    
+       }
+    }
+    .live-header{
+        position:absolute;
+        top: 45%;
+        left: 190%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .live-events{
+        margin-top: 0;
+        margin-left: 55%;
+        height: 100vh;
+        display:flex;
+        gap: 7%;
+        flex-direction: column;
+        p{
+            color:#b34215;
+            font-size: 16px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;    
+        }
+        span{
+            color: #fff;
+            font-size: 24px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 31px; 
+            
+        }
+        img{
+            width: 20vw;
+            border-radius: 18px;
+        }
+    }
+    .fadhile-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;     
+    }
+    .them-mushrooms-event{
+        display: flex;
+        align-items:center;
+        gap: 6%;
+    }
+    .koko-koseso-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;
+        
+    }
+    .live-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .live-page{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/live-page-background.jpg);
+        width:100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    .live-front-and-logo{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;    
+       }
+    }
+    .live-header{
+        position:absolute;
+        top: 45%;
+        left: 190%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .live-events{
+        margin-top: 0;
+        margin-left: 55%;
+        height: 100vh;
+        display:flex;
+        gap: 7%;
+        flex-direction: column;
+        p{
+            color:#b34215;
+            font-size: 16px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;    
+        }
+        span{
+            color: #fff;
+            font-size: 24px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 31px; 
+            
+        }
+        img{
+            width: 20vw;
+            border-radius: 18px;
+        }
+    }
+    .fadhile-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;     
+    }
+    .them-mushrooms-event{
+        display: flex;
+        align-items:center;
+        gap: 6%;
+    }
+    .koko-koseso-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;
+        
+    }
+    .live-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}
 
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-
-@media only screen and (min-width: 1200px) {}
+    .live-page{
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/live-page-background.jpg);
+        width:100vw;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: repeat-x;
+        display: flex;
+        justify-content: space-between;
+        overflow: auto;
+    }
+    .live-front-and-logo{
+        position: absolute;
+        height: 100vh;
+       img{
+           margin-left: 170%;
+           margin-top: 50%;
+           width: 12vw;    
+       }
+    }
+    .live-header{
+        position:absolute;
+        top: 45%;
+        left: 190%;
+        text-align: center;
+        line-height: 0.8em;
+    
+        p{
+            color: white;
+            font-size: 32px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.1em;
+                                                
+        }
+        h1{
+            color:#a34119;
+            font-size: 64px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0.1em;                                                
+        }
+    }
+    .live-events{
+        margin-top: 0;
+        margin-left: 55%;
+        height: 100vh;
+        display:flex;
+        gap: 7%;
+        flex-direction: column;
+        p{
+            color:#b34215;
+            font-size: 16px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;    
+        }
+        span{
+            color: #fff;
+            font-size: 24px;
+            font-family: "American Typewriter",sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 31px; 
+            
+        }
+        img{
+            width: 20vw;
+            border-radius: 18px;
+        }
+    }
+    .fadhile-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;     
+    }
+    .them-mushrooms-event{
+        display: flex;
+        align-items:center;
+        gap: 6%;
+    }
+    .koko-koseso-event{
+        display: flex;
+        align-items: center;
+        gap: 6%;
+        
+    }
+    .live-navigation-bar{
+        position:absolute;
+        top:85%;
+        left:3%;
+        font-size: large;
+        
+        nav{
+            justify-content: center;
+            background-color: rgb(9,10,10);
+            width: 40vw;
+            height: 4vh;
+            padding: 3%;
+            border-radius:7vw;
+            align-items: normal;
+        }
+        nav svg{
+            color: #737373;
+            width: 1.5vw;
+            height: 1.9vh;
+        }
+        .lucide-clock-3:hover{
+            background-color: white;
+                color: rgb(71, 68, 68);
+                border-radius: 95px;
+                width: 1vw;
+                height:2vh;
+                padding:0.5vw ;
+                margin-top: -1.5vh ;
+            }
+        nav i{
+            
+            justify-items: baseline;
+            color:white;
+            border:none;
+            margin: 0 0.1vw;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+        nav ul li a:hover{
+            color: gray;
+        }
+        nav ul li a:focus-visible{
+            border: 1px solid #191a1a;
+            background-color: #191a1a;
+            border-radius: 0;
+            padding: 15px;
+        }
+        .hours-icon{
+            position: relative;
+            display: block;
+            margin-left: 2%;
+            color: #737373;
+        }
+        .fa-bars{
+            color: #737373;
+        }
+        .opening-hours{
+            display: inline-block;
+            position: absolute;
+            color: black;
+            background-color: white;
+            border: none;
+            width: 12vw;
+            border-radius: 20px;
+            z-index:1;
+            display: none;
+            bottom: 150%;
+            padding: 3vh; 
+            h6{
+                font-size: 20px;
+                font-family: "American Typewriter";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 0.1em; 
+            }
+        }
+    }
+    #reservations{
+        background-color: rgb(160, 157, 157);
+        border-radius: 25px;
+        height:1vh;
+        padding: 3%;
+        margin-top:-3%;
+        margin-left: 2%;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 0 0.75vw;
+        }
+    }
+    #reservations a:hover{
+        color: black;
+        text-align: center;
+        background-color: 0;
+        
+    }}

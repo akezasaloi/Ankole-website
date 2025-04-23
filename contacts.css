@@ -38,15 +38,166 @@
     }
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-@media only screen and (min-width: 600px) {}
+    .contacts-page{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/contact3.jpg);
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        margin: 0;
+        width:100vw;
+        gap:2%;
+        height: 100vh;
+        display: flex;
+        p{
+            color: white;
+            line-height: 2em;
+        }
+        h1{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        .kitisuru-contact-information{
+            margin-top:15%;
+            margin-left: 25%;
+            width:20%;
+            height: 30%;
+            padding: 2%;
+            border: solid 0.1vw white;
+    
+        }
+        .kilimani-contact-information{
+            margin-top: 15%;
+            width: 20%;
+            height:40%;
+            padding: 2%;
+            border: solid 0.1vw white;
+        }
+    }}
+
+@media only screen and (min-width: 768px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+    .contacts-page{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/contact3.jpg);
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        margin: 0;
+        width:100vw;
+        gap:2%;
+        height: 100vh;
+        display: flex;
+        p{
+            color: white;
+            line-height: 2em;
+        }
+        h1{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        .kitisuru-contact-information{
+            margin-top:15%;
+            margin-left: 25%;
+            width:20%;
+            height: 30%;
+            padding: 2%;
+            border: solid 0.1vw white;
+    
+        }
+        .kilimani-contact-information{
+            margin-top: 15%;
+            width: 20%;
+            height:40%;
+            padding: 2%;
+            border: solid 0.1vw white;
+        }
+    }}
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {
+    @import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
+
+.contacts-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/contact3.jpg);
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    margin: 0;
+    width:100vw;
+    gap:2%;
+    height: 100vh;
+    display: flex;
+    p{
+        color: white;
+        line-height: 2em;
+    }
+    h1{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    .kitisuru-contact-information{
+        margin-top:15%;
+        margin-left: 25%;
+        width:20%;
+        height: 30%;
+        padding: 2%;
+        border: solid 0.1vw white;
+
+    }
+    .kilimani-contact-information{
+        margin-top: 15%;
+        width: 20%;
+        height:40%;
+        padding: 2%;
+        border: solid 0.1vw white;
+    }
+}
+}
 
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {@import url(https://db.onlinewebfonts.com/c/940ace70d6c766e685a20dea33762abf?family=American+Typewriter);
 
-
-@media only screen and (min-width: 1200px) {}
+    .contacts-page{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/contact3.jpg);
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        margin: 0;
+        width:100vw;
+        gap:2%;
+        height: 100vh;
+        display: flex;
+        p{
+            color: white;
+            line-height: 2em;
+        }
+        h1{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        .kitisuru-contact-information{
+            margin-top:15%;
+            margin-left: 25%;
+            width:20%;
+            height: 30%;
+            padding: 2%;
+            border: solid 0.1vw white;
+    
+        }
+        .kilimani-contact-information{
+            margin-top: 15%;
+            width: 20%;
+            height:40%;
+            padding: 2%;
+            border: solid 0.1vw white;
+        }
+    }}

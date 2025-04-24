@@ -320,7 +320,6 @@ header{
         }
         .images:nth-child(4){
             background-image: url(./images/Taste.jpg);
-            background-size: contain;
             animation-delay: 15s;
         }
         .images:nth-child(5){
@@ -354,12 +353,12 @@ header{
                 position:absolute;
                 top:85%;
                 left:5%;
-                font-size: 8px;
+                font-size: 2vw;
                 
                 nav{
                     justify-content: center;
                     background-color: rgb(9,10,10);
-                    width: 75vw;
+                    width: 95%;
                     height: 4vh;
                     padding: 3%;
                     border-radius:7vw;
@@ -391,10 +390,10 @@ header{
                     display: flex;
                     justify-content: center;
 
-                    margin-right: 5em;
-                    top:50%;
+                    margin-right: 1em;
+                    top:-10%;
                     left:50%;
-                    transform: translate(1%,20%);
+                    transform: translate(90%,-30%);
                 }
                 nav ul li a {
                     color: white;
